@@ -1,0 +1,649 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "is anyone there?",
+        "howdy",
+        "how are you",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey there",
+        "namaste"
+      ],
+      "responses": [
+        "Hi!",
+        "Hey there!",
+        "Hello!",
+        "Good day to you!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "tata",
+        "bye-bye",
+        "good night"
+      ],
+      "responses": [
+        "See you later!",
+        "Have a nice day!",
+        "Bye! Do come back again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks a lot",
+        "thanks a bunch",
+        "thank you very much",
+        "thanks",
+        "thank",
+        "thank you",
+        "that's helpful",
+        "thanks for the help",
+        "thanks a ton"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you?",
+        "what are you?"
+      ],
+      "responses": [
+        "I'm Kasey, your bot assistant here to help you",
+        "I'm Kasey, an Artificially Intelligent bot made to help you"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what's your name",
+        "your name"
+      ],
+      "responses": [
+        "You can call me Kasey, with a K",
+        "I'm Kasey, with a K!"
+      ]
+    },
+    {
+      "tag": "what_is_website",
+      "patterns": [
+        "what is this site?",
+        "what is this site about?",
+        "what is this website?",
+        "why am I here?",
+        "what is this",
+        "why was this site made",
+        "explain this site to me"
+      ],
+      "responses": [
+        "This is the website for Indian School Al Ghubra, a school primarily meant for the children of Indian expatriates living in Oman."
+      ]
+    },
+    {
+      "tag": "can_do_here",
+      "patterns": [
+        "what can I do here?",
+        "what is this site for?",
+        "what is the use of this place?"
+      ],
+      "responses": [
+        "This is the website for Indian School Al Ghubra. Over here you'll find real time updates about everything which happens in school, you'll be able to contact teachers and pretty much do anything related to this school"
+      ]
+    },
+    {
+      "tag": "who_made",
+      "patterns": [
+        "who made this site?",
+        "who created this site?",
+        "who made you?",
+        "who were you made by?",
+        "who were you created by?",
+        "who were your developers"
+      ],
+      "responses": [
+        "This site and I, were made by three developers whose names even I don't know."
+      ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "what all can you do?",
+        "what is your job?",
+        "what are your powers?",
+        "what are your capabilities",
+        "what skills do you possess?",
+        "what do you do",
+        "what is your function",
+        "what is your purpose",
+        "what do you do the whole day",
+        "what can you do for me today"
+      ],
+      "responses": [
+        "There's actually quite a lot I can do, at least regarding this site. I can help you navigate almost everywhere, get you in contact with the school officials, help you register, help students who come here, take you to fun games my creator made, and even make jokes!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "i need help",
+        "can you help me",
+        "i require assistance",
+        "can you assist me?",
+        "help",
+        "aid",
+        "how can you help me",
+        "where can i find the help page"
+      ],
+      "responses": [
+        "Yes! Please tell me what you require assistance for"
+      ],
+      "context_set": "help"
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "where is the registration page",
+        "how to get to the admission page",
+        "how to get to the registration page",
+        "i want to register my child to this school",
+        "how to register",
+        "i want to admit my child into isg",
+        "i want my child to join this school",
+        "how can i register",
+        "how to admission in indian school al ghubra",
+        "how to get admission in isg",
+        "what is the admittance process",
+        "how do you get into isg",
+        "registration",
+        "admission",
+        "if I want to find the registration page, where should I go?",
+        "where can i find the registration page"
+      ],
+      "responses": [
+        "Registration for admission to ISG starts from January 2021. A non- refundable fee of OMR 15 will be payable on each application. Here's the link from where you can submit the admission form and get more information - ###<a href='http://127.0.0.1:5000/registration' target='_blank' class='botText'>Registration</a>"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "what is the location of isg?",
+        "where is this school situated",
+        "where is this school?",
+        "how to reach this school?",
+        "how to reach isg",
+        "where is isg",
+        "how to get to isg",
+        "location",
+        "how far is isg",
+        "where can i find the location page"
+      ],
+      "responses": [
+        "ISG is located in Al-Ghubra, Muscat, in the Sultanate of Oman <br> ###<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5880763165515!2d58.39447154191735!3d23.58833064521316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ffb8c18d5361%3A0xff4755408907acbb!2sIndian+School+Al+Ghubra!5e0!3m2!1sen!2sin!4v1550215055672' width='65%' height='200' frameborder='0' style='border:0' allowfullscreen=''></iframe>"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "where is the contact page",
+        "how to get to the contact page",
+        "how can I contact the school officials?",
+        "i want to contact the school officials",
+        "how can I communicate with the school officials",
+        "i want to talk to the school officials",
+        "can you tell me how to contact the school officials",
+        "i need to talk with a teacher",
+        "can you connect me to a teacher",
+        "can you connect me to an official",
+        "i want to contact teacher",
+        "contact",
+        "i want to contact the president",
+        "i want to talk to the principal",
+        "if I want to find the contact page, where should I go?",
+        "where can i find the contact page"
+      ],
+      "responses": [
+        "All information on how to contact us is available on this page:###<a href='http://127.0.0.1:5000/contact' target='_blank' class='botText'>Contact Us</a>"
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "where is the syllabus page",
+        "how to get to the syllabus page",
+        "what is the syllabus for ",
+        "want to find the syllabus for ",
+        "can you give me the syllabus for grade ",
+        "i need the syllabus",
+        "what is the curriculum for",
+        "what all is taught",
+        "can you give me the curriculum",
+        "i need the curriculum",
+        "i want the curriculum",
+        "what is the course matter",
+        "what is the course-matter",
+        "can you take me to the syllabus page",
+        "can you show me the syllabus",
+        "syllabus",
+        "curriculum",
+        "course matter",
+        "if I want to find the syllabus page, where should I go?",
+        "where can i find the syllabus page"
+      ],
+      "responses": [
+        "You can easily find the syllabus for all our classes on this page - ###<a href='http://127.0.0.1:5000/syllabus' target='_blank' class='botText'>Syllabus</a>"
+      ]
+    },
+    {
+      "tag": "videos",
+      "patterns": [
+        "where are the videos",
+        "how to get to the videos page",
+        "i want to see the school videos",
+        "i want to see videos",
+        "can you show me the videos of events",
+        "can you give me the videos of day",
+        "can you give me the recordings of event",
+        "i want to see the videos of celebration",
+        "i want to view the recording",
+        "videos",
+        "isg videos",
+        "i want video",
+        "if I want to find the video page, where should I go?",
+        "where can i find the videos page"
+      ],
+      "responses": [
+        "Sure! You'll find the archive of all school videos on this page:###<a href='http://127.0.0.1:5000/videos' target='_blank' class='botText'>Videos</a>"
+      ]
+    },
+    {
+      "tag": "photos",
+      "patterns": [
+        "where is the photo page",
+        "how to get to the photos page",
+        "i want to see the school photos",
+        "i want to see pictures",
+        "can you show me the photographs of events",
+        "can you give me the photos of day",
+        "can you give me the pictures of event",
+        "i want to see the photographs of celebration",
+        "can you give me the pictures of day",
+        "show me all the photos",
+        "photos",
+        "isg pictures",
+        "photographs",
+        "i want to view photos",
+        "gallery",
+        "take me to gallery",
+        "can you take me to gallery",
+        "if I want to find the gallery page, where should I go?",
+        "if I want to find the photos page, where should I go?",
+        "where can i find the gallery page",
+        "where are the photos?"
+      ],
+      "responses": [
+        "Of course! Here's the archive of all our school photos - ###<a href='http://127.0.0.1:5000/photos' target='_blank' class='botText'>Photos</a>"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "where is the fees page",
+        "how to get to the fees page",
+        "fees",
+        "what is the fee structure for this school",
+        "what are the fees for this school",
+        "what is the fee structure for class",
+        "what are the fees for class",
+        "what is the fee structure for grade",
+        "what are the fees for grade",
+        "can you tell me the fees for grade",
+        "i want to know the fee structure",
+        "how to pay the fees",
+        "can you show me the fees",
+        "if I want to find the fees page, where should I go?",
+        "where can i find the fees page"
+      ],
+      "responses": [
+        "Here are the fees! ###<a href='http://127.0.0.1:5000/fees' target='_blank' class='botText'>Fee Structure</a>"
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "where is the timetable",
+        "where is the schedule page",
+        "give me the timetables",
+        "how to get to the timetable page",
+        "what is the timetable of this school",
+        "i want the time-table for grade",
+        "could you give me the schedule for class",
+        "i need the schedules for ",
+        "i want the timetables",
+        "i require the time-tables",
+        "timetable",
+        "schedule",
+        "time table",
+        "if I want to find the timetable page, where should I go?",
+        "if I want to find the schedule page, where should I go?",
+        "where can i find the timetable page",
+        "what are the school timings"
+      ],
+      "responses": [
+        "You'll find the timetables and schedules for all sections and grades on this page: ###<a href='http://127.0.0.1:5000/time_table' target='_blank' class='botText'>Timetables</a>"
+      ]
+    },
+    {
+      "tag": "about_school",
+      "patterns": [
+        "i want to know more about isg",
+        "could you give me some more information about this school",
+        "i want to know mre about this place",
+        "could you give me some more data",
+        "i want to know more about indian school al ghubra",
+        "isg",
+        "indian school al ghubra",
+        "what is indian school al ghubra"
+      ],
+      "responses": [
+        "You can know anything about our school from the below pages. Fun fact - ISG was founded in 1990 and has over 3000 students today: ###<div class='botText'><a href='http://127.0.0.1:5000/' target='_blank'>Home Page</a> <br> <a href='http://127.0.0.1:5000/aims' target='_blank'>Our Aims</a> <br>  <a href='http://127.0.0.1:5000/mission' target='_blank'>Our Mission</a> <br> <a href='http://127.0.0.1:5000/principal' target='_blank'>Our Principal</a> <br> <a href='http://127.0.0.1:5000/president' target='_blank'>Our President</a></div>",
+        "The below pages will tell you anything you want about us. Fun fact - we were founded by Dr. P Mohammed Ali: ###<div class='botText'><a href='http://127.0.0.1:5000/' target='_blank'>Home Page</a> <br> <a href='http://127.0.0.1:5000/aims' target='_blank'>Our Aims</a> <br>  <a href='http://127.0.0.1:5000/mission' target='_blank'>Our Mission</a> <br> <a href='http://127.0.0.1:5000/principal' target='_blank'>Our Principal</a> <br> <a href='http://127.0.0.1:5000/president' target='_blank'>Our President</a></div>"
+      ]
+    },
+    {
+      "tag": "roundsquare",
+      "patterns": [
+        "where is the round square page",
+        "how to get to the round square page",
+        "i want to see the round square page",
+        "what is round-square",
+        "i want to know more about round square",
+        "can you tell me what round square is",
+        "i want for round-square",
+        "i need the round-square events",
+        "round-square",
+        "round-square",
+        "can you show me the round square page",
+        "if I want to find the round-square page, where should I go?",
+        "where can i find the round-square page"
+      ],
+      "responses": [
+        "Sure! Roundsquare is an international organization of schools which aims to increase unity and instill a sense of internationalism in the students of these institutions. You can find a lot more about roundsquare on their official website, or you could find ISG's role in it at this link - ###<a href='http://127.0.0.1:5000/roundsquare' target='_blank' class='botText'>Our role in Roundsquare</a>"
+      ]
+    },
+    {
+      "tag": "take_to_mission",
+      "patterns": [
+        "where is the mission page",
+        "how to get to the mission page",
+        "take me to mission",
+        "can you show me the mission page",
+        "mission and vision",
+        "i want to see the mission page",
+        "mission",
+        "vision",
+        "i want to see the mission page",
+        "show me the mission and vision page",
+        "if I want to find the mission page, where should I go?",
+        "where can i find the mission page"
+      ],
+      "responses": [
+        "Here's the link - ###<a href='http://127.0.0.1:5000/mission' target='_blank' class='botText'>Mission</a>"
+      ]
+    },
+    {
+      "tag": "take_to_aims",
+      "patterns": [
+        "how to get to the aims page",
+        "take me to aims",
+        "can you show me the aims page",
+        "aims",
+        "i want to see the aims page",
+        "show me the aims page",
+        "i need aims",
+        "what are the aims of isg",
+        "if I want to find the aims page, where should I go?",
+        "where can i find the aims page",
+        "where is the aims page"
+      ],
+      "responses": [
+        "Here's the link - ###<a href='http://127.0.0.1:5000/aims' target='_blank' class='botText'>aims</a>"
+      ]
+    },
+    {
+      "tag": "take_to_founder",
+      "patterns": [
+        "take me to founder",
+        "can you show me the founder page",
+        "founder",
+        "i want to see the founder page",
+        "who is the founder",
+        "who is isg's founder",
+        "if I want to find the founder page, where should I go?",
+        "where can i find the founder page",
+        "how to get to the founder page",
+        "where is the founder page"
+      ],
+      "responses": [
+        "The founder of our school is Dr. P Mohammed Ali. <br>You'll find more info about him on this page - ###<a href='http://127.0.0.1:5000/founder' target='_blank' class='botText'>founder</a>"
+      ]
+    },
+    {
+      "tag": "take_to_president",
+      "patterns": [
+        "where is the president page",
+        "take me to president",
+        "can you show me the president page",
+        "president",
+        "i want to see the president page",
+        "who is the president",
+        "isg's president",
+        "where can i find the president page",
+        "if I want to find the president page, where should I go?",
+        "how to get to the president page"
+      ],
+      "responses": [
+        "Here you go! - ###<a href='http://127.0.0.1:5000/president' target='_blank' class='botText'>president</a>"
+      ]
+    },
+    {
+      "tag": "take_to_principal",
+      "patterns": [
+        "where is the principal page",
+        "take me to principal",
+        "can you show me the principal page",
+        "principal",
+        "i want to see the principal page",
+        "who is the principal",
+        "who is the principal of isg",
+        "show me the principal page",
+        "where can i find the principal page",
+        "if I want to find the principal page, where should I go?",
+        "how to get to the principal page"
+      ],
+      "responses": [
+        "Here's the link - ###<a href='http://127.0.0.1:5000/principal' target='_blank' class='botText'>principal</a>"
+      ]
+    },
+    {
+      "tag": "take_to_management",
+      "patterns": [
+        "where is the management page",
+        "take me to management",
+        "can you show me the management page",
+        "management",
+        "i want to see the management page",
+        "I need to see the management committee page",
+        "show me the management page",
+        "management committee",
+        "where can i find the management page",
+        "if I want to find the management-committee page, where should I go?",
+        "how to get to the management page"
+      ],
+      "responses": [
+        "Here's the link - ###<a href='http://127.0.0.1:5000/management' target='_blank' class='botText'>management</a>"
+      ]
+    },
+    {
+      "tag": "take_to_virtual tour",
+      "patterns": [
+        "take me to virtual tour",
+        "can you show me the virtual tour page",
+        "virtual tour",
+        "i want to see the virtual tour page",
+        "can i have a tour of the school",
+        "i want to have a virtual tour of the school",
+        "if I want to find the virtual tour page, where should I go?",
+        "can i have a virtual tour of this school",
+        "can you give me a tour around isg"
+      ],
+      "responses": [
+        "Here's the link - ###<a href='https://indianschool.com/al-ghubra360/' target='_blank' class='botText'>virtual tour</a>"
+      ]
+    },
+    {
+      "tag": "take_to_calendar",
+      "patterns": [
+        "where is the calendar",
+        "take me to calendar",
+        "can you show me the calendar page",
+        "calendar",
+        "i want to see the calendar page",
+        "when are my holidays",
+        "i want to know when is school closed",
+        "when is annual day",
+        "when are school events",
+        "can you tell me when school reopens",
+        "if I want to find the calendar page, where should I go?",
+        "when are my exams",
+        "when are the exams starting",
+        "how to get to the calendar page"
+      ],
+      "responses": [
+        "Here's the link for all matters of time - ###<a href='https://indianschool.com/downloads/calendar/Academic_Calendar.pdf' target='_blank' class='botText'>Calendar</a>"
+      ]
+    },
+    {
+      "tag": "bad_jokes",
+      "patterns": [
+        "can you tell me some jokes",
+        "i want a laugh",
+        "hit me with your best jokes",
+        "i want to hear some jokes",
+        "can you make me laugh",
+        "tell me a joke",
+        "jokes",
+        "joke"
+      ],
+      "responses": [
+        "Did you hear about the actor who fell through the floorboards?<br>He was just going through a stage.",
+        "Did you hear about the claustrophobic astronaut?<br>He just needed a little space.",
+        "Why did the chicken go to the seance?<br>To get to the other side.",
+        "Where are average things manufactured?<br>The satisfactory.",
+        "How do you drown a hipster?<br>Throw him in the mainstream.",
+        "What's the best thing about Switzerland?<br>I don't know, but the flag is a big plus.",
+        "I invented a new word!<br>Plagiarism!",
+        "Did you hear about the mathematician who's afraid of negative numbers?<br>He'll stop at nothing to avoid them.",
+        "Why do we tell actors to 'break a leg?'<br>Because every play has a cast.",
+        "Helvetica and Times New Roman walk into a bar.<br>'Get out of here!', shouts the bartender. <br>'We don't serve your type.'",
+        "Hear about the new restaurant called Karma?<br>There's no menu: You get what you deserve."
+      ]
+    },
+    {
+      "tag": "games",
+      "patterns": [
+        "i want to play a game",
+        "can you show me some games",
+        "will you play something with me",
+        "i really want to enjoy a game",
+        "i'm really bored",
+        "games",
+        "gaming"
+      ],
+      "responses": [
+        "Here's a list of games for you to choose from: ###<div class='botText'><a href='https://pacman.cc/' target='_blank'>Pac-man</a> <br> <a href='https://www.google.com/fbx?fbx=snake_arcade' target='_blank'>Snake</a> <br> <a href='https://elgoog.im/breakout/' target='_blank'>Atari Breakout</a> <br> <a href='https://flappybird.io/' target='_blank'>Flappy Bird</a> <br> <a href='https://www.ponggame.org/' target='_blank'>Pong</a></div>"
+      ]
+    },
+    {
+      "tag": "take me home",
+      "patterns": [
+        "i want to go back to the home page",
+        "if I want to find the home page, where should I go?",
+        "home page",
+        "start page",
+        "how to go to the home page",
+        "take me to the home page",
+        "how to get to the home page"
+      ],
+      "responses": [
+        "You can reach the home page by clicking the logo on the top-left corner"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you doing",
+        "how do you feel today",
+        "how are you",
+        "are you okay"
+      ],
+      "responses": [
+        "I'm fine, thank you!"
+      ]
+    },
+    {
+      "tag": "random_how",
+      "patterns": [
+        "how to ask a random question",
+        "how can i ask a random question",
+        "if i want to ask something random, how should i do it",
+        "i want to ask an arbitrary question"
+      ],
+      "responses": [
+        "You can ask me a random question by typing it into the box, and pressing the 'Ask Wikipedia' button"
+      ]
+    },
+    {"tag": "exam_results",
+      "patterns": [
+        "where is the results page",
+        "where are the exam results",
+        "show me my results",
+        "exam results",
+        "results",
+        "what is my test score",
+        "what is my result",
+        "did i pass in my exams",
+        "did i fail in my tests",
+        "take me to the exam results page",
+        "can you show me the exam results page",
+        "can i see my results",
+        "can i know my performance in the tests",
+        "how did I do in my exams",
+        "how did i fare in my exams",
+        "what is my test performance",
+        "i want to see my exam scores",
+        "how to get to the exam results page"
+      ],
+      "responses": [
+        "Sure! You can find your results in this page -###<a href='http://127.0.0.1:5000/exam_results' target='_blank' class='botText'>Exam Results</a>"
+      ]
+    }
+  ]
+}
